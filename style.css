@@ -1,0 +1,67 @@
+@import url(https://fonts.googleapis.com/css?family=Sono:200,300,regular,500,600,700,800);
+@import url(https://fonts.googleapis.com/css?family=Play:regular,700);
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body
+{
+    background: #330387;
+    color: #fff;
+}
+
+.time
+{
+    display: flex;
+    background: #fff;
+    width: 500px;
+    color: #330387;
+    margin-top: 40px;
+    margin-left: 590px;
+}
+
+.time h1, h2, h3, p
+{
+    font-size: 100px;
+    font-family: 'Play', sans-serif;
+}
+
+p
+{
+    text-align: center;
+    font-family: 'Sono', sans-serif;
+}
+
+.date
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 20px;
+    font-family: 'Sono', sans-serif;
+    font-size: 40px;
+}
+
+@media screen and (max-width: 700px) and (max-height:700px) {
+    p
+    {
+        font-size: 40px;
+    }
+
+    .time h1, h2, h3, p
+    {
+        font-size: 70px;
+    }
+
+    .time
+    {
+        position: relative;
+        top: -10px;
+        left: -405px;
+        width: 350px;
+    }
+}
